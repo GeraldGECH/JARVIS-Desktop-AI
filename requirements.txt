@@ -1,0 +1,18 @@
+# JARVIS v2 - Todo gratis y local
+SpeechRecognition==3.14.3
+pyttsx3==2.90
+requests>=2.31
+numpy>=1.26
+sounddevice>=0.4
+pyaudio==0.2.14
+Pillow>=10.0
+pycaw>=20240210; sys_platform == "win32"
+comtypes>=1.2; sys_platform == "win32"
+# ----------------------------------------------------------------
+# Ollama (IA local gratuita) NO es pip: instala Ollama desde
+# https://ollama.com/download y luego:
+#   ollama pull qwen2.5:1.5b   (conversacion rapida, ~3 s)
+#   ollama pull qwen3.5:9b     (respaldo de mayor calidad)
+# Endpoint OpenAI-compatible usado por JARVIS:
+#   http://localhost:11434/v1  |  API Key: ollama
+# ----------------------------------------------------------------

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+
+# JARVIS runtime / personal data
+jarvis_log.txt
+jarvis_config.json
+info_ciudad_mcp.txt
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+*.egg-info/

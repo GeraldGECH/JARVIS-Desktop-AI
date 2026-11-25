@@ -1,0 +1,9 @@
+{
+  "_nota": "Agrega aqui tus apps. Clave = lo que dices, valor = ejecutable o URL. Sin tocar codigo.",
+  "apps": {
+    "mi app ejemplo": "notepad.exe"
+  },
+  "websites": {
+    "mi sitio favorito": "https://google.com"
+  }
+}
