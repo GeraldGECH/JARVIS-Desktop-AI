@@ -6,6 +6,26 @@
 
 🎥 **[Ver video demo de JARVIS v2](https://github.com/GeraldGECH/JARVIS-Desktop-AI/releases/download/v2.0.0/jarvis-v2-demo.mp4)** (asset del release `v2.0.0`)
 
+## Estados visuales del cerebro
+
+JARVIS cambia de color según lo que está haciendo. Estas son capturas reales del proyecto:
+
+| Captura | Vista |
+|---|---|
+| Estado 1 | ![JARVIS estado 1](docs/images/jarvis-state-1.png) |
+| Estado 2 | ![JARVIS estado 2](docs/images/jarvis-state-2.png) |
+| Estado 3 | ![JARVIS estado 3](docs/images/jarvis-state-3.png) |
+
+Mapa de colores usado por la interfaz (`stark.py`):
+
+| Estado | Color | Cuándo aparece |
+|---|---|---|
+| `inactive` | `#3d7090` | En espera, esperando la palabra "Jarvis" |
+| `active` | `#00d4ff` | Activado/inicializando |
+| `listening` | `#ff6432` | Escuchando tu voz |
+| `thinking` | `#ffd200` | Procesando tu petición |
+| `speaking` | `#00ff88` | Respondiendo por voz |
+
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?logo=windows&logoColor=white)](#requisitos)
 [![Ollama](https://img.shields.io/badge/IA-Ollama%20local-000000)](https://ollama.com/)
